@@ -1,0 +1,18 @@
+print("Calculadora Científica")
+
+numero1=input("Insira o primeiro valor a calcular :")
+numero2=input("Insira o segundo valor a calcular :")
+operacao = input("Digite a operacao desejada (soma, sub, mult, div): ")
+
+if operacao == "+":
+	resultado = int(numero1) + int(numero2)
+if operacao == "-":
+	resultado = int(numero1) - int(numero2)
+if operacao == "*":
+	resultado = int(numero1) * int(numero2)
+if operacao == "/":
+	resultado = int(numero1) / int(numero2)
+else:
+	resultado = "Operação não suportada"
+
+print("O resultado da operação é: " + str(resultado))
